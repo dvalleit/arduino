@@ -1,3 +1,21 @@
-theme: jekyll-theme-cayman
-title: Arduino Projects
-description: A collection of Arduino projects and sketches.
+remote_theme: just-the-docs/just-the-docs@v0.10.0
+
+title: Aprende Arduino desde Cero
+description: Guía completa paso a paso para aprender Arduino en español, con ejercicios prácticos y proyectos reales.
+lang: es
+
+color_scheme: light
+
+aux_links:
+  "Ver en GitHub":
+    - "https://github.com/dvalleit/arduino"
+
+footer_content: "Aprende Arduino desde Cero &mdash; Contenido bajo licencia <a href='https://creativecommons.org/licenses/by/4.0/'>CC BY 4.0</a>"
+
+search_enabled: true
+heading_anchors: true
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
